@@ -1,0 +1,145 @@
+/* styles.css */
+
+/* Reset default list styles */
+*{
+    margin:0%;
+    padding:0%;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333; /* Change to your desired background color */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    height:25px;
+    width:30px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Search bar styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    /*background-color: beige;*/
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-bar button {
+    margin-left: 10px;
+    background-color: #555;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+body{
+   background-image: url('https://cdn.vox-cdn.com/thumbor/sdWeqnxJlr9_Kl0m7tl-B_DKh-M=/0x0:2000x1333/2420x1613/filters:focal(840x507:1160x827)/cdn.vox-cdn.com/uploads/chorus_image/image/63616718/171109_06_43_15_5DS_9875.0.jpg');
+   background-size: cover;
+   background-position:center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    margin-left:20px; 
+    margin-top:50px;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    
+}
+#main{
+    display:flex;
+}
+
+.social-icons a {
+    margin: 0px 30px; /* Add spacing between icons */
+}
+
+.social-icons img {
+    width: 40px; /* Adjust the icon size */
+    height: 40px;
+    border-radius: 50%; /* Make them round */
+    transition: transform 0.3s ease; /* Add a hover effect */
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Enlarge on hover */
+}
+.box{
+    height:300px;
+    width:0%;
+    margin-top:30px;
+    margin-left:30px;
+    margin-bottom: 20px;
+    border:2px solid white;
+}
+.contain1{
+    height:100px;
+    width:100px;
+    text-align: left;
+    
+}
+.contain2{
+    margin-top:30px;
+    text-align: left;
+    height:50px;
+    width:200px;
+    justify-items: center;
+}
+.container button {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top:200px;
+    /* Add more styles as needed */
+}

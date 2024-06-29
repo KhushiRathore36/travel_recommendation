@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+p{
+    font-size: 18px;
+    color:aliceblue;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333; /* Change to your desired background color */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    height:25px;
+    width:30px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left:0%;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.box{
+    width:25%;
+}
+.box1{
+    height:300px;
+    width:0%;
+    margin-top:30px;
+    margin-left:30px;
+    margin-bottom: 20px;
+    border:2px solid white;
+}
+body{
+   background-image: url('https://cdn.vox-cdn.com/thumbor/sdWeqnxJlr9_Kl0m7tl-B_DKh-M=/0x0:2000x1333/2420x1613/filters:focal(840x507:1160x827)/cdn.vox-cdn.com/uploads/chorus_image/image/63616718/171109_06_43_15_5DS_9875.0.jpg');
+   background-size: cover;
+   background-position:center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.social-icons a {
+    margin: 0px 30px; /* Add spacing between icons */
+}
+
+.social-icons img {
+    width: 40px; /* Adjust the icon size */
+    height: 40px;
+    border-radius: 50%; /* Make them round */
+    transition: transform 0.3s ease; /* Add a hover effect */
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Enlarge on hover */
+}
+#main{
+    display: flex;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color:aliceblue;
+    font-size: 60px;
+    margin-top:280px;
+    margin-left:60px;
+}
+h4{
+    color:beige;
+    font-size:18px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+#box3{
+    margin-top:200px;
+    margin-left:400px;
+    width:20%;
+    height:25%;
+    border:3px solid black;
+}
+.search-bar input[type="text"]{
+    padding:2px;
+    border:2px solid white;
+    border-radius: 3px;
+    height:30px;
+    width:35%;
+}
+form{
+    height:35px;
+    width:30%;
+    margin-left: 10px;
+}
+button{
+    margin-left: 10px;
+    background-color:green;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
